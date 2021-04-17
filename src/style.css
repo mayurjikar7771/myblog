@@ -1,0 +1,121 @@
+.login{
+    margin-top: 150px;
+}
+.header{
+    /* background-color: ivory; */
+      /* padding: 5px 20px; */
+      /* display: grid;
+      grid-template-areas: "logo nav"; */
+
+      display: flex;
+      justify-content: center;
+      background-color: #5D5C61;
+     
+     
+}
+.header-links{
+     /* text-align: center;
+     padding-left: 150px;
+     font-weight: 300;
+     font-size: 50px;
+     */
+     /* grid-area: nav;
+     display: grid;
+     grid-template-columns: repeat(4, auto);
+     align-items: center;
+     justify-items: center; */
+     text-align: center;
+     padding: 20px;
+     color: #FFFFFF;
+     font-weight: bold;
+     border: none;
+     border-bottom: 3px solid transparent;
+     cursor: pointer;
+     outline: none;
+
+}
+.sticky {
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+   
+  }
+.logo{
+
+    font-size: 22px;
+    margin-bottom: 0;
+    font-weight: 300;
+}
+.header a{
+    color:#000;
+    font-size: 22px;
+    margin: 9px;
+    font-weight: 300;
+    
+}
+.Footer{
+    /* background-color: #ececec; */
+    /* padding: 10px;
+    font-size: 18px;
+    text-align: center; */
+    
+    display: flex;
+    justify-content: center;
+    background-color: #5D5C61;
+    
+ 
+}
+.Footer p {
+    /* margin-bottom: 0;
+    text-align: center;    */
+    text-align: center;
+    padding: 20px;
+    color: #314d4a;
+    font-weight: bold;
+    border: none;
+    border-bottom: 3px solid transparent;
+    cursor: pointer;
+    outline: none;
+}
+.content{
+    height: 100%;
+    
+}
+#root{
+   background-color: lavender;
+   
+}
+.site-card-wrapper {
+    padding: 30px;
+    background: #ececec;
+  }
+.card{
+    padding-left: 120px;
+    margin: 30px;
+    
+}
+.cards:hover {
+    box-shadow: 0 0 20px #000;
+  }
+.cards{
+    height: 500px;
+}
+@media(max-width:700px) {
+    .header {
+        grid-template-areas:l "logo burger" "nav nav";
+    }
+    .header-links{
+        grid-template-rows: repeat(4, auto);
+        grid-template-columns: none;
+        grid-row-gap: 20px;
+    }
+    
+}
+.card-details{
+    width: 100%;
+    height: 100%;
+}
+   
+  
